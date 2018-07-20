@@ -1,0 +1,30 @@
+{
+    "name": "smartweb/cloud-events-json",
+    "description": "An implementation of the JSON Event Format for CloudEvents.",
+    "authors": [
+        {
+            "name": "Nicolai Agersbæk",
+            "email": "na@smartweb.dk"
+        }
+    ],
+    "type": "project",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "SmartWeb\\CloudEvents\\Json": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "platform": {
+            "php": "7.0.30",
+            "ext-bcmath": "2.6.3"
+        }
+    }
+}
